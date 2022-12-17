@@ -3,7 +3,7 @@ import time
 import pandas
 from datetime import datetime
 from pandas.core import frame
-from pandas.core.algorithms 
+from pandas.core.algorithms import diff
 
 static_back = None
 motion_list = [None, None]
